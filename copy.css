@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.product2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.product > img{
+    width: 500px;
+    height: 500px;
+}
+.product2 > img{
+    width: 500px;
+    height: 500px;
+}
+.college, .mbAir, .iphone13{
+    background-color: #fbfbfd;
+    width: 99%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+nav > ul >li{
+    list-style: none;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.mini{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    height: 60px;
+
+}
+.purple{
+color: #ca2166;
+}
+.extras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section{
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+section > ul > li{
+    list-style: none;
+}
+.unicef{
+    background-color: rgba(2, 2, 2, 0.9);
+    width: 100%;
+    color: white;
+}
